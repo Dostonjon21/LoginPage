@@ -132,3 +132,20 @@
 
 	}
     
+	.book-card .highlighted {
+		margin: 10px 15px;
+		font-size: 0.9rem;
+		background-color: yellow;
+		padding: 5px 10px;
+		border-radius: 5px;
+		color: #333;
+	}
+
+	/* CSSda loading spinner uchun styling */
+	.loading {
+		font-size: 20px;
+		color: #007bff;
+		text-align: center;
+		padding: 20px;
+		font-weight: bold;
+	}
