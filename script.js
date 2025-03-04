@@ -23,3 +23,18 @@ userNameInput.addEventListener('input', () => {
 	}
 
 })
+
+passwordInput.addEventListener('input', () => {
+	if (passwordInput.value === '') {
+		wrongPassword.style.color = ''
+		wrongPassword.textContent = ''
+	} else {
+		if (!checkPassword(passwordInput.value)) {
+			wrongPassword.style.color = 'red'
+			wrongPassword.textContent = 'Iltimos malumotni to\'g\'ri kiriting'
+		} else {
+			wrongPassword.style.color = ''
+			wrongPassword.textContent = ''
+		}
+	}
+})
